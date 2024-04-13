@@ -1,26 +1,60 @@
- # Namaste React 🚀
+# Namaste React 🚀
 
+## Parcel
 
-# Parcel
 - Dev Build
-- Local server
+- Local Server
 - HMR = Hot Module Replacement
-- File Watching Algrithm - Written in C++
-- Caching -Faster Builds
-- Image Optimisation
+- File Watching Algorithm - written in C++
+- Caching - Faster Builds
+- Image Optimization
 - Minification
 - Bundling
-- Compressing
+- Compress
 - Consistent Hashing
 - Code Splitting
-- Differential Bundling - Support Older Browser
+- Differential Bundling - support older browsers
 - Diagnostic
 - Error Handling
 - HTTPs
 - Tree Shaking - remove unused code
-- Differrent Dev and Prod bundes
+- Different dev and prod bundles
 
+### Header
 
-- 
-- 
-- 
+- Logo
+- Nav Items
+
+### Body
+
+- Search
+- RestaurantContainer
+- RestaurantCard
+- Img
+- Name of Res, Star Rating, cuisine, delery tie
+  
+### Footer
+
+- Copyright
+- Links
+- Address
+- Contact
+
+### Two types of Export/Import
+
+Default Export/Import
+
+export default Component;
+import Component from "path";
+
+- Named Export/Import
+export const Component; import {Component} from "path";
+
+## React Hooks
+
+> (Normal JS utility functions)
+
+- useState() => Superpowerful State Variables in react.
+- useEffect()
+  
+ > When a state variable update React will rerender the component.VirtualDom is a representation of actualdom.
